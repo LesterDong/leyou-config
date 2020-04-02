@@ -26,6 +26,9 @@ zuul:
     search-service: /search/**  #搜索微服务
     user-service: /user/**  #用户微服务
     auth-service: /auth/** #授权中心微服务
+#      path: /auth/** #授权中心微服务
+#      sensitive-headers:
+#      custom-sensitive-headers: true
     cart-service: /cart/** #购物车微服务
     order-service: /** #订单微服务
     seckill-service: /seckill/** #秒杀微服务
