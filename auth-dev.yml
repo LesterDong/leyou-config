@@ -26,7 +26,7 @@ leyou:
     priKeyPath: /Users/donggang/gpay/leyou/rsa/private.key # 私钥地址
     expire: 30 # 过期时间,单位分钟
     cookieName: LY_TOKEN
-    cookieMaxAge: 30
+    cookieMaxAge: 300 # cookie age 单位秒
 
 ribbon:
   ConnectTimeout: 4000 # 连接超时时间(ms)
